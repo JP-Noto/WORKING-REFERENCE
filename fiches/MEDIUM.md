@@ -19,11 +19,11 @@ changent l'interprète et l'oreille qui vérifie. Servir un nouveau médium, c'e
 
 ```mermaid
 flowchart TB
-    C["CONSTANTE UNIQUE<br/>canon · identité · règles — aucun médium"]
-    C --> GT["générateur<br/>texte"] --> BT["banc<br/>texte"]
-    C --> GI["générateur<br/>image"] --> BI["banc<br/>image"]
-    C --> GX["générateur<br/>interactif"] --> BX["banc<br/>interactif"]
-    BT & BI & BX -. "éprouvent la conformité<br/>à la constante, chacun<br/>dans son médium" .-> C
+    C["CONSTANTE UNIQUE · aucun médium"]
+    C --> GT["générateur texte"] --> BT["banc texte"]
+    C --> GI["générateur image"] --> BI["banc image"]
+    C --> GX["générateur interactif"] --> BX["banc interactif"]
+    BT & BI & BX -.->|"conformité à la constante"| C
 ```
 
 Un médium de plus est une colonne de plus, jamais une seconde constante.

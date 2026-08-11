@@ -18,9 +18,9 @@ règles écrites en amont.
 
 ```mermaid
 flowchart LR
-    W["TRAVAIL EN COURS<br/>déclare son working state"] -- "appel" --> RL["COUCHE DE RÉFÉRENCE<br/>constante + règles de décision"]
-    RL -- "décide" --> I["INSTANCIATION<br/>constante + variables résolues"]
-    I -- "servie + scellée" --> W
+    W["TRAVAIL EN COURS"] -->|"appel + working state"| RL["COUCHE DE RÉFÉRENCE"]
+    RL -->|"décide"| I["INSTANCIATION"]
+    I -->|"servie + scellée"| W
 ```
 
 L'instanciation est située et jetable : elle guide cet appel, puis meurt. Ce qui mérite de durer

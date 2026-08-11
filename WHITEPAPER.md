@@ -60,14 +60,18 @@ fonction ne se code pas : on a renommé le travail. L'instanciation est située 
 mérite de durer repasse par une gate. Il n'y a pas d'autre porte.
 
 ```mermaid
-flowchart LR
-    G["GATES<br/>l'appareil du déployeur,<br/>hors du corpus"] -- "admission datée" --> C["CONSTANTE<br/>canon · identité · règles"]
-    C --> RL["COUCHE DE RÉFÉRENCE<br/>constante + règles de décision"]
-    W["TRAVAIL EN COURS"] -- "appel<br/>+ working state" --> RL
-    RL -- "décide" --> I["INSTANCIATION<br/>constante + variables résolues<br/>située, jetable"]
-    I -- "servie + scellée" --> W
-    I -. "ce qui mérite de durer<br/>repasse par une gate" .-> G
+flowchart TD
+    G["GATES · l'appareil du déployeur"] -->|"admission datée"| C["CONSTANTE"]
+    C --> RL["COUCHE DE RÉFÉRENCE"]
+    W["TRAVAIL EN COURS"] -->|"appel + working state"| RL
+    RL -->|"décide"| I["INSTANCIATION"]
+    I -->|"servie + scellée"| W
+    I -.->|"ce qui mérite de durer"| G
 ```
+
+*Lecture du schéma : la constante (canon · identité · règles) n'entre que par gates, tenues hors du
+corpus ; la couche de référence (constante + règles de décision) décide l'instanciation (constante +
+variables résolues : située, jetable) ; ce qui mérite de durer repasse par une gate.*
 
 Le test d'admission de la constante est prospectif et sévère : un élément lui appartient si sa révision
 au changement de génération de modèle serait un échec du corpus ; le doute se tranche variable (SPEC,
@@ -135,15 +139,18 @@ déploie la fonction avec l'appareil de preuve qu'il a, pas avec le nôtre.
 
 ```mermaid
 flowchart TB
-    subgraph AMONT["EN AMONT — hors du corpus : l'appareil du déployeur (pour ONDE : ACTA)"]
-        AP["tient les rôles : gates · bancs · rangs<br/>fabrique et juge les constantes<br/>ne sert rien, ne scelle rien"]
+    subgraph AMONT["EN AMONT · hors du corpus : l'appareil du déployeur (pour ONDE : ACTA)"]
+        AP["gates · bancs · rangs"]
     end
-    subgraph FONCTION["EN AVAL — dans le corpus : la fonction"]
-        C2["CONSTANTE"] --> RL2["COUCHE DE RÉFÉRENCE<br/>décide · sert · scelle"]
+    subgraph FONCTION["EN AVAL · dans le corpus : la fonction"]
+        C2["CONSTANTE"] --> RL2["COUCHE DE RÉFÉRENCE"]
     end
-    AP -- "admission par gate datée" --> C2
-    RL2 -- "instanciations servies et scellées,<br/>dans tout médium" --> T["LE TRAVAIL"]
+    AP -->|"admission par gate datée"| C2
+    RL2 -->|"instanciations servies et scellées"| T["LE TRAVAIL"]
 ```
+
+*Lecture du schéma : l'appareil fabrique et juge les constantes, ne sert rien, ne scelle rien ; la
+couche de référence décide, sert et scelle, dans tout médium.*
 
 **Conditions d'application.** La fonction a un coût : déclarer la constante, écrire les contrats de
 chargement, tenir les gates, sceller. Il ne se justifie que si le travail dure et que le corpus

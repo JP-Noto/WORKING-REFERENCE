@@ -9,6 +9,10 @@ Versionnage `x.y.z` : x = refonte de doctrine · y = mécanisme ajouté/retiré 
   falsification n°1 passe d'énoncée à **armée sur le périmètre couvert** (16 règles sur 24,
   inventaire déclaré). Le protocole et les seuils précèdent les mesures ; la piste chaînée du
   laboratoire en fait foi.
+- **Les quatre schémas rendus lisibles** (constat d'auteur sur le rendu GitHub : les libellés
+  multi-lignes étaient concaténés et tronqués) : libellés courts sur une ligne, légende de lecture
+  sous les deux schémas du WHITEPAPER, schéma principal en disposition verticale. Aucun contenu
+  doctrinal modifié.
 - Éditorial : l'étiquette de statut du README français devient **Public Draft** (le doublon
   « brouillon public (Public Draft) » disparaît).
 
