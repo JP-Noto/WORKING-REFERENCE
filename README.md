@@ -24,6 +24,12 @@ volume served per call does not grow with corpus size.
 Gates, benches and ranks are **roles**, not institutions: a conforming deployment holds them with its
 own proof apparatus, and names it.
 
+Four layers, no redundancy: a host AI OS governs the system; [LIVING
+REFERENCE](https://github.com/JP-Noto/LIVING-REFERENCE) governs the status of knowledge; WORKING
+REFERENCE governs how the reference serves the work; [MYSTANCE](https://github.com/JP-Noto/MYSTANCE)
+governs the human's place. The family is operated by the ONDE AI R&D laboratory — its portal:
+<https://github.com/JP-Noto/ONDE>.
+
 ## How it is organized
 
 | Document | What it is |
