@@ -2,6 +2,16 @@
 
 Versionnage `x.y.z` : x = refonte de doctrine · y = mécanisme ajouté/retiré · z = correction/clarification.
 
+## [Non publié]
+
+- **research : la Série 1 du banc de dérive d'instance versée** (FR + EN, le français faisant
+  foi) : trois épreuves complètes, échecs et défauts d'instrument compris ; la condition de
+  falsification n°1 passe d'énoncée à **armée sur le périmètre couvert** (16 règles sur 24,
+  inventaire déclaré). Le protocole et les seuils précèdent les mesures ; la piste chaînée du
+  laboratoire en fait foi.
+- Éditorial : l'étiquette de statut du README français devient **Public Draft** (le doublon
+  « brouillon public (Public Draft) » disparaît).
+
 ## [0.1.7] — 2026-08-11
 
 Première version du dépôt canonique. Le corpus complet, au rang qu'il déclare :
