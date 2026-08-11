@@ -7,7 +7,7 @@ qu'un système peut appliquer, et que tout lecteur peut lire, opposer et vérifi
 
 [English version](README.md) · si les deux divergent, le corpus français fait foi.
 
-`Statut : brouillon public (Public Draft)` · `SPEC : 0.1` · `Rang : hypothèse` · `Licence : CC BY-NC-SA 4.0`
+`Statut : Public Draft` · `SPEC : 0.1` · `Rang : hypothèse` · `Licence : CC BY-NC-SA 4.0`
 
 ## Le constat
 
