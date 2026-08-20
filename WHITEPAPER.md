@@ -113,10 +113,11 @@ pièce du volet média, le papier n'en revendique pas davantage**).
 
 ## 5. Architecture : les rôles et l'appareil
 
-La famille compte quatre couches, sans redondance : l'OS hôte gouverne le système, et trois corpus se
+La famille compte cinq couches, sans redondance : l'OS hôte gouverne le système, et quatre corpus se
 partagent le reste. [LIVING REFERENCE](https://github.com/JP-Noto/LIVING-REFERENCE) norme le statut du
-savoir : ce qui fait autorité. [MYSTANCE](https://github.com/JP-Noto/MYSTANCE) norme la relation
-humain–assistant. WORKING REFERENCE norme la référence qui travaille : comment l'autorité arrive à
+savoir : ce qui fait autorité. [MYSTANCE](https://github.com/JP-Noto/MYSTANCE) norme la relation humain–assistant.
+[SOUNDNESS](https://github.com/JP-Noto/SOUNDNESS) norme la naissance du savoir extrait de documents,
+la fiche fondée sur la pièce. WORKING REFERENCE norme la référence qui travaille : comment l'autorité arrive à
 l'appel.
 
 Le test de conformité croisé est instructif. LIVING REFERENCE, passé contre la SPEC de ce corpus, est

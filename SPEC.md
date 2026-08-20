@@ -9,9 +9,9 @@ fait foi.
 WORKING REFERENCE norme la **référence qui travaille** : comment un corpus de référence se structure
 (une constante, des variables), s'instancie (une décision d'après le travail en cours), se sert (jamais
 chargé en bloc) et se scelle (la décision traçable). Il ne norme ni le statut du savoir (rôle de
-[LIVING REFERENCE](https://github.com/JP-Noto/LIVING-REFERENCE), qu'il généralise), ni la relation
-humain–assistant (rôle de [MYSTANCE](https://github.com/JP-Noto/MYSTANCE)) : l'OS hôte, lui,
-gouverne le système : quatre couches, quatre rôles, aucune redondance. La thèse en une phrase : un corpus n'est pas un document qu'on lit,
+[LIVING REFERENCE](https://github.com/JP-Noto/LIVING-REFERENCE), qu'il généralise), ni la relation humain–assistant (rôle de [MYSTANCE](https://github.com/JP-Noto/MYSTANCE)), ni la
+naissance du savoir extrait de documents (rôle de [SOUNDNESS](https://github.com/JP-Noto/SOUNDNESS))
+: l'OS hôte, lui, gouverne le système : cinq couches, cinq rôles, aucune redondance. La thèse en une phrase : un corpus n'est pas un document qu'on lit,
 c'est une fonction qu'on appelle.
 
 Les gates, bancs et rangs de ce document sont des **rôles**, jamais des institutions : l'appareil qui

@@ -4,6 +4,12 @@ Versionnage `x.y.z` : x = refonte de doctrine · y = mécanisme ajouté/retiré 
 
 ## [Non publié]
 
+- **La carte des couches accueille SOUNDNESS, cinquième couche** : la naissance du savoir
+  extrait de documents, la fiche fondée sur la pièce, corpus public depuis le 2026-08-20. Les
+  deux README et la phrase de périmètre de la SPEC passent de quatre à cinq couches, le
+  whitepaper avec. Le partage des rôles ne change pas : ce corpus tient la façon dont la
+  référence sert le travail, le cadet tient la naissance de ce qui est extrait.
+
 - **research : la Série 1 du banc de dérive d'instance versée** (FR + EN, le français faisant
   foi) : trois épreuves complètes, échecs et défauts d'instrument compris ; la condition de
   falsification n°1 passe d'énoncée à **armée sur le périmètre couvert** (16 règles sur 24,

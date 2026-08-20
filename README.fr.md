@@ -40,10 +40,11 @@ corpus.
 
 ## La famille
 
-Quatre couches, quatre rôles, aucune redondance — l'OS hôte gouverne le système, et trois corpus se
+Cinq couches, cinq rôles, aucune redondance — l'OS hôte gouverne le système, et quatre corpus se
 partagent le reste : [**LIVING REFERENCE**](https://github.com/JP-Noto/LIVING-REFERENCE) norme le statut
-du savoir, ce qui fait autorité ; [**MYSTANCE**](https://github.com/JP-Noto/MYSTANCE) norme la relation
-humain–assistant ; **WORKING REFERENCE** norme la référence qui travaille : comment l'autorité arrive
+du savoir, ce qui fait autorité ; [**MYSTANCE**](https://github.com/JP-Noto/MYSTANCE) norme la relation humain–assistant ; [**SOUNDNESS**](https://github.com/JP-Noto/SOUNDNESS) norme la
+naissance du savoir extrait de documents, la fiche fondée sur la pièce ; **WORKING REFERENCE** norme
+la référence qui travaille : comment l'autorité arrive
 à l'appel. Les gates, bancs et rangs de ce corpus sont des **rôles** : l'appareil qui les tient est
 celui du déployeur, jamais fourni par le corpus. La famille est opérée par le laboratoire
 ONDE AI R&D — son portail : <https://github.com/JP-Noto/ONDE>.
